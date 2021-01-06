@@ -30,23 +30,34 @@ export default function Home(){
       </Link>
 
       <Link to="/about">
-          <div className='contact'>
+          <div className='about'>
           <h1>ABOUT</h1>
           </div>      
       </Link>
 
-      <Link to="/cv">
-          <div className='resume'>
-          <h1>CV</h1>
+      <Link to="/signup">
+          <div className='signup'>
+          <h1>SIGNUP</h1>
           </div>      
       </Link>
 
-      <Link to="/projects">
-          <div className='projects'>
-          <h1>PROJECTS</h1>
+      <Link to="/login">
+          <div className='login'>
+          <h1>LOGIN</h1>
           </div>
       </Link>
 
+      <Link to="/dashboard">
+          <div className='dashboard'>
+          <h1>DASHBOARD</h1>
+          </div>
+      </Link>
+
+      <Link to="/contact">
+          <div className='contact'>
+          <h1>CONTACT</h1>
+          </div>
+      </Link>
   </nav>
   </Route>
   </Router>

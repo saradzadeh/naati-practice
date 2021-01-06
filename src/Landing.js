@@ -23,8 +23,8 @@ class Landing extends React.Component {
                 <div>
                 
                     <Switch>
-                    <Route path= "/cv">
-                        <Resume />
+                    <Route path= "/signup">
+                        <Signup />
                     </Route>
 
                     <Route path= "/about">
@@ -35,8 +35,16 @@ class Landing extends React.Component {
                         <Home />
                     </Route>
 
-                    <Route path="/projects">
-                        <Projects />
+                    <Route path="/login">
+                        <Login />
+                    </Route>
+
+                    <Route path="/dashboard">
+                        <Dashboard />
+                    </Route>
+
+                    <Route path="/contact">
+                        <Contact />
                     </Route>
                     
                     </Switch>
