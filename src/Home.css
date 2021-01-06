@@ -1,0 +1,139 @@
+body {
+    margin: 5%;
+    background-color: rgba(75, 104, 104, 0.26);
+}
+/*************************************************
+navigation bar
+********************************************/
+.nav-bar-grid {
+display: grid;
+grid-template-columns: 8fr 1fr;
+}
+
+.nav-bar-links {
+    background-color: black;
+       
+}
+
+.nav-bar-links h1 {
+    color: white;
+    padding-top: 20%;
+    padding-bottom: 20%;    
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+/*************************************************
+logo
+********************************************/
+.nav-bar-logo {
+    margin-right: 30%;
+}
+
+.nav-bar-logo img {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    box-shadow: 10px 10px 20px black;
+}
+
+/*************************************************
+what is ccl test
+********************************************/
+.what-ccl-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: black;
+    color: white;
+    
+}
+
+.what-ccl-grid h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+.what-ccl-grid p {
+    text-align: left;
+    padding: 20px;
+}
+
+/*************************************************
+test results
+********************************************/
+
+.test-results {
+    text-align: left;
+}
+
+/*************************************************
+locations
+********************************************/
+.locations{
+    
+    filter: grayscale(80%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    
+}
+
+.locations li {
+    font-size: 30px;
+    padding: 8px;
+    
+}
+
+.test-location{
+    margin-top: 10%;
+    text-align: left;
+}
+
+
+/*************************************************
+what is our material
+********************************************/
+.what-material-grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: black;
+    color: white;
+    
+}
+
+.what-material-grid img {
+    height: 600px;
+}
+
+.what-material-grid h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+.what-material-grid p {
+    text-align: left;
+    padding: 20px;
+}
+
+
+/*************************************************
+Disclaimer
+********************************************/
+.disclaimer {
+    margin-top: 20%;
+}
+
+
+/*************************************************
+footer
+********************************************/
+footer {
+    background-color: black;
+    color: gray;
+    padding: 10%;
+    text-align: left;
+}
